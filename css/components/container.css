@@ -1,0 +1,30 @@
+.container {
+  width: 900px;
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 900px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+.container > h2 {
+  color: black;
+  text-align: center;
+}
